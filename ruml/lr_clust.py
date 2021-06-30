@@ -10,6 +10,7 @@ import lightgbm as lgb
 import inspect
 from .utils import *
 
+#Return coefficient of linear regression
 def dict_coefs_columns(lr, columns):
     return dict(zip(columns,lr.coef_))   
 
