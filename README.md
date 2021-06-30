@@ -1,5 +1,7 @@
 # ruml
-rumata ml utils
+Nickolai Knytazev ml utils.
+
+For LOD papers (2019, 2021)
 
 ***Installation***
 
@@ -14,7 +16,8 @@ to run method
 
 from ruml import lr_clust
 
-**Fit regressor**
+***Fit regressor***
+
 fit
 Packeg provide to types of method: lr_on_leaf.
 lr_on_leaf class has predict and fit method.
@@ -35,18 +38,21 @@ lr_cl = lr_clust.lr_on_leaf()
 lr_cl.fit(X_train,y_train,lr_columns=tr_cols_reg,cls_columns=tr_cols_clust2,n_clusters=3,verbose=False,
          eval_set=(X_test,y_test), n_estimators=40, max_depth=4)
 
-**prediction**
+***prediction***
+
 to predict use predict method
 lr_cl.predict(X_test)
 
 For testing reasons it's able to predict only by best estimator
 lr_cl.predict_best(X_test,y_test)
 
-**Other function**
+***Other function***
+
 You can use provide lr_as_feature class, which represents similar method, but instead of regression over clustering uses cluster regressions results as feautures for clusterization.
 
 On utils backege bayes optimization and several other techniques also provided.
 
 
+Method explanation
 
 
