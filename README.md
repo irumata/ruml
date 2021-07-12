@@ -1,7 +1,5 @@
 # ruml
-Nickolai Knytazev ml utils.
-
-For LOD papers (2019, 2021)
+Linear regression trees implementation/
 
 ***Installation***
 
@@ -53,6 +51,6 @@ You can use provide lr_as_feature class, which represents similar method, but in
 On utils backege bayes optimization and several other techniques also provided.
 
 
-Method explanation
+Method explanation  will be in paper.
 
 
